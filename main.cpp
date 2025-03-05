@@ -179,7 +179,7 @@ void GameStatus(void)
     char tmp[40];
     glColor3f(0, 0, 0);
     glRasterPos2f(5, 50);
-    sprintf_s(tmp, "Level:%d  Score:%d      ", level, points);
+    sprintf_s(tmp, "Level : %d  Score : %d      ", level, points);
     Write(tmp);
 }
 
@@ -209,7 +209,7 @@ void FPS(void)
     fps_frame++;
 
     glRasterPos2f(75, 50);
-    sprintf_s(tmp, "FPS degeri:%d", new_fps);
+    sprintf_s(tmp, "    FPS value : %d", new_fps);
     Write(tmp);
 }
 
